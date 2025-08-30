@@ -57,9 +57,7 @@ export default function HomePage() {
         if (accs.length > 0) {
           setAccount(accs[0]);
           setError(null);
-        } else {
-          setAccount(null);
-        }
+        } else setAccount(null);
       };
       const handleChain = (chainId: string) => setChainId(chainId);
 
@@ -159,6 +157,17 @@ export default function HomePage() {
      -------------------------- */
   return (
     <div className="relative min-h-screen overflow-hidden font-sans">
+      {/* VIDEO BACKGROUND */}
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover -z-30"
+      >
+        <source src="/video.mp4" type="video/mp4" />
+      </video>
+
       {/* Gradient + SVG blobs */}
       <div
         className="absolute inset-0 -z-20"
@@ -170,21 +179,21 @@ export default function HomePage() {
       />
       <canvas ref={canvasRef} className="absolute inset-0 -z-0 pointer-events-none" />
 
-      {/* Card UI */}
+      {/* Central UI card */}
       <div className="relative z-10 flex min-h-screen items-center justify-center px-4">
-        <div className="w-full max-w-[820px] bg-white/6 backdrop-blur-md border border-white/12 rounded-3xl p-10 shadow-2xl text-center">
-          <h1 className="text-4xl font-extrabold text-white drop-shadow-md mb-3">
-            💞 CrushCredits — Matchmaking DApp
+        <div className="w-full max-w-[820px] bg-white/10 backdrop-blur-lg border border-white/20 rounded-3xl p-10 shadow-2xl text-center">
+          <h1 className="text-5xl font-extrabold mb-3 text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-red-400 to-yellow-300 drop-shadow-lg">
+            💞 PROOF OF LOVE
           </h1>
-          <p className="text-white/80 mb-6 max-w-2xl mx-auto">
-            Find trustworthy, transparent matches powered by AI & recorded on-chain.
+          <p className="text-white/90 mb-6 max-w-2xl mx-auto text-lg font-semibold">
+            Find trustworthy, transparent matches powered by AI & recorded on-chain. Fast, private, and built for love ❤️
           </p>
 
           {/* Wallet Section */}
           {!account ? (
             <button
               onClick={connectWallet}
-              className="inline-flex items-center gap-3 rounded-full bg-gradient-to-br from-yellow-300 to-pink-400 px-6 py-3 font-semibold text-black shadow-xl hover:scale-105 transition"
+              className="inline-flex items-center gap-3 rounded-full bg-gradient-to-br from-pink-400 to-purple-600 px-6 py-3 font-semibold text-white shadow-xl hover:scale-105 hover:shadow-pink-400/50 transition"
             >
               🔗 Connect Wallet
             </button>
@@ -204,13 +213,13 @@ export default function HomePage() {
           <div className="mt-6 grid grid-cols-2 gap-3 w-full max-w-md mx-auto">
             <a
               href="/profile"
-              className="py-2 rounded-lg bg-white/8 text-white hover:bg-white/12 transition text-sm"
+              className="py-2 rounded-lg bg-white/10 text-white hover:bg-white/20 transition text-sm"
             >
               Create Profile
             </a>
             <a
               href="/match"
-              className="py-2 rounded-lg bg-white/8 text-white hover:bg-white/12 transition text-sm"
+              className="py-2 rounded-lg bg-white/10 text-white hover:bg-white/20 transition text-sm"
             >
               View Matches
             </a>
