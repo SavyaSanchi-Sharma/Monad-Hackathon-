@@ -1,0 +1,10 @@
+/home/guy_who_likes_to_code/github/Monad-Hackathon-/main_app/backend/target/debug/deps/memoffset-d660c325839a9f35.d: /home/guy_who_likes_to_code/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/memoffset-0.9.1/src/lib.rs /home/guy_who_likes_to_code/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/memoffset-0.9.1/src/raw_field.rs /home/guy_who_likes_to_code/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/memoffset-0.9.1/src/offset_of.rs /home/guy_who_likes_to_code/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/memoffset-0.9.1/src/span_of.rs
+
+/home/guy_who_likes_to_code/github/Monad-Hackathon-/main_app/backend/target/debug/deps/libmemoffset-d660c325839a9f35.rlib: /home/guy_who_likes_to_code/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/memoffset-0.9.1/src/lib.rs /home/guy_who_likes_to_code/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/memoffset-0.9.1/src/raw_field.rs /home/guy_who_likes_to_code/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/memoffset-0.9.1/src/offset_of.rs /home/guy_who_likes_to_code/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/memoffset-0.9.1/src/span_of.rs
+
+/home/guy_who_likes_to_code/github/Monad-Hackathon-/main_app/backend/target/debug/deps/libmemoffset-d660c325839a9f35.rmeta: /home/guy_who_likes_to_code/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/memoffset-0.9.1/src/lib.rs /home/guy_who_likes_to_code/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/memoffset-0.9.1/src/raw_field.rs /home/guy_who_likes_to_code/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/memoffset-0.9.1/src/offset_of.rs /home/guy_who_likes_to_code/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/memoffset-0.9.1/src/span_of.rs
+
+/home/guy_who_likes_to_code/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/memoffset-0.9.1/src/lib.rs:
+/home/guy_who_likes_to_code/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/memoffset-0.9.1/src/raw_field.rs:
+/home/guy_who_likes_to_code/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/memoffset-0.9.1/src/offset_of.rs:
+/home/guy_who_likes_to_code/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/memoffset-0.9.1/src/span_of.rs:

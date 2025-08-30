@@ -1,0 +1,8 @@
+/home/guy_who_likes_to_code/github/Monad-Hackathon-/AI-Engine/target/debug/deps/icu_normalizer-e2efcc4ccbf8d238.d: /home/guy_who_likes_to_code/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/icu_normalizer-2.0.0/src/lib.rs /home/guy_who_likes_to_code/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/icu_normalizer-2.0.0/src/properties.rs /home/guy_who_likes_to_code/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/icu_normalizer-2.0.0/src/provider.rs /home/guy_who_likes_to_code/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/icu_normalizer-2.0.0/src/uts46.rs
+
+/home/guy_who_likes_to_code/github/Monad-Hackathon-/AI-Engine/target/debug/deps/libicu_normalizer-e2efcc4ccbf8d238.rmeta: /home/guy_who_likes_to_code/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/icu_normalizer-2.0.0/src/lib.rs /home/guy_who_likes_to_code/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/icu_normalizer-2.0.0/src/properties.rs /home/guy_who_likes_to_code/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/icu_normalizer-2.0.0/src/provider.rs /home/guy_who_likes_to_code/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/icu_normalizer-2.0.0/src/uts46.rs
+
+/home/guy_who_likes_to_code/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/icu_normalizer-2.0.0/src/lib.rs:
+/home/guy_who_likes_to_code/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/icu_normalizer-2.0.0/src/properties.rs:
+/home/guy_who_likes_to_code/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/icu_normalizer-2.0.0/src/provider.rs:
+/home/guy_who_likes_to_code/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/icu_normalizer-2.0.0/src/uts46.rs:
