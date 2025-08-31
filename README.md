@@ -40,7 +40,7 @@ npx hardhat run scripts/deploy.js --network monad_testnet
 
 ## 🌐 Networks
 
-- **Monad Testnet**: `https://rpc.testnet.monad.xyz` (Chain ID: 1337)
+- **Monad Testnet**: `https://rpc.testnet.monad.xyz` (Chain ID: 10143)
 - **Localhost**: `http://127.0.0.1:9545`
 
 ## 📱 Frontend
